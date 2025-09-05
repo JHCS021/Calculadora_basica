@@ -1,8 +1,6 @@
-package com.ejemplo.calc;
-
-import com.ejemplo.calc.factory.OperacionFactory;
-import com.ejemplo.calc.service.CalculadoraService;
-import com.ejemplo.calc.domain.Operacion;
+import factory.OperacionFactory;
+import service.CalculadoraService;
+import domain.Operacion;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
