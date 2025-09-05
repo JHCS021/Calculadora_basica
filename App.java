@@ -44,7 +44,6 @@ public class App {
                 };
 
                 if (!Double.isNaN(resultadoMetodos)) {
-                    // En paralelo, demostramos polimorfismo (POO full)
                     Operacion op = factory.fromOption(opcion);
                     double resultadoPOO = op.aplicar(num1, num2);
 
